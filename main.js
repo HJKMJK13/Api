@@ -75,5 +75,8 @@ function crearPokemon(pokemon){
     const h3=document.createElement("h3");
     h3.textContent=pokemon.name
     const div=document.querySelector("div")
-    
+
+    div.appendChild("img")
+    div.appendChild("h3")
+
 }
